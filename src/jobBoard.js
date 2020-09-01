@@ -17,7 +17,7 @@ const JobBoard = ({
     },
     handleTagClick,
 }) => {
-    const tags = [role, level, languages];
+    const tags = [role, level];
 
     if (tools) { 
         tags.push(...tools); 
